@@ -1,0 +1,19 @@
+# $Id$
+# Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Contributor: Philipp Sandhaus <philipp.sandhaus@gmx.de>
+
+pkgname=ruby
+pkgver=1.9.4_p180
+pkgrel=1
+pkgdesc="fake ruby"
+arch=(i686 x86_64)
+url=""
+license=("LGPL")
+source=()
+md5sums=('')
+
+build() {
+  cd "$srcdir/"
+  mkdir usr/bin -p
+  touch usr/bin/ruby_fake
+}
