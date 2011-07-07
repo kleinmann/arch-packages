@@ -38,7 +38,7 @@ unsigned short max_fan_speed=6200;
  * low_temp - temperature below which fan speed will be at minimum
  * high_temp - fan will increase speed when higher than this temperature
  * max_temp - fan will run at full speed above this temperature */
-unsigned short low_temp=55;
+unsigned short low_temp=48;
 unsigned short high_temp=65;
 unsigned short max_temp=80;
 
